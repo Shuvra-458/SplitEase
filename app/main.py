@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from app.routes import groups, users, expenses, balances, settlements
 
-app = FastAPI(title="CredResolve API")
+app = FastAPI(title="SplitEase API")
 
 app.include_router(users.router)
 app.include_router(groups.router)
