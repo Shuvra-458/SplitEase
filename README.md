@@ -1,7 +1,8 @@
 # SplitEase 🧾💸
 
 SplitEase is a Splitwise-like expense sharing application built using **FastAPI** and **PostgreSQL**.
-
+Try the backend at:
+https://splitease-vaun.onrender.com/docs
 ---
 
 ## 🚀 Features
