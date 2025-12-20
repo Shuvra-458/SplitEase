@@ -80,5 +80,5 @@ def add_expense(db: Session, payload):
                     amount=amount
                 )
             )
-        db.commit()
-        return expense.id
+    db.commit()
+    return expense.id
